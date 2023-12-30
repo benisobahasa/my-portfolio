@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Indah Rohmayani</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/541a8a7ab8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="asset/logoku.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Linguist</p>
+            <h1>Hi, I'm <span>Indah</span></h1>
+        </div>
+    </div>
+</div>
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="asset/aku.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey there! I'm a skilled linguist with experience in translation, digital humanities, localization, and copywriting. I specialize in making sure messages are clear and culturally appropriate across different languages. Whether it's adapting content for specific cultures, using language technologies, or crafting engaging copy, I bring a simple and effective approach to my work. My goal is to communicate ideas accurately and connect with diverse audiences. <br>Let's make the digital world a better place together!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Digital Humanities</span><br>Adapting content from one language to another while considering cultural nuances and regional preferences.</li>
+                        <li><span>Copywriting</span><br> Create compelling and persuasive written content</li>
+                        <li><span>Translation and Localization</span><br>Crafting Culturally Relevant Content for Global Audiences</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - current</span><br>Technical Translator at Mars Translation</li>
+                        <li><span>2023 - current</span><br>Linguist at Educraft</li>
+                        <li><span>2022 - 2023</span><br>Linguist at Rikaian Technology</li>
+                        <li><span>2021 - 2022</span><br>Copywriter at CV. Bangkit</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>Natural Language Processing course</li>
+                        <li><span>2018</span><br>MA from Gadjah Mada University</li>
+                        <li><span>2012</span><br>BA from Semarang State University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Digital Humanities</h2>
+                <p>I specialize in developing a straightforward website-based language translation solution, facilitating accessible and efficient cross-language communication.</p>
+                <a href="https://benisobahasa.github.io/language-service/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Copywriting</h2>
+                <p>I have successfully executed impactful copywriting projects, crafting compelling content that effectively communicates brand messages and engages target audiences.</p>
+                <a href="https://benisobahasa.github.io/language-service/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Translation and Localization</h2>
+                <p>I have successfully completed translation and localization projects, ensuring accurate and culturally adapted content to effectively reach diverse global audiences.</p>
+                <a href="https://benisobahasa.github.io/language-service/">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="asset/1652813944-Ent-DigitalCopywriting.jpeg">
+                <div class="layer">
+                    <h3>Digital Humanities</h3>
+                    <p>Created easy website translation tools to help people understand in different languages effortlessly</p>
+                    <a href="https://benisotranslator.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/business-pitch-pixabay-image-free-to-use-licence.jpg">
+                <div class="layer">
+                    <h3>Copywriting</h3>
+                    <p>Boosted company product sales through compelling and effective messaging, optimizing for SEO and driving increased online visibility.</p>
+                    <a href="https://benisobahasa.github.io/language-service/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="asset/Blog-B-01-scaled-1.jpg">
+                <div class="layer">
+                    <h3>Translation & Localization</h3>
+                    <p>I have translated and adapted content to different languages, making it easy for everyone to understand</p>
+                    <a href="https://benisotranslator.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> indahrohmayani9@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +6282323391855</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ind_ramayani?igsh=bWxsa29ocGN3cjNm"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/indah-rohmayani-3010b91b4/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/benisobahasa"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.researchgate.net/profile/Indah-Rohmayani/research"><i class="fa-brands fa-google-scholar"></i></a>
+                </div>
+                <a href="asset/INDAH ROHMAYANI CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy Indah Rohmayani <i class="fa-solid fa-heart"></i> Portfolio</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzO2seFzqe9EBDRCJVYTq5T12O_dcGJFsegUudK0L6xxJMxuZ2RISPPqz4PpAVxZrrq/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
